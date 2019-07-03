@@ -8,7 +8,7 @@
         <th>Lost</th>
         <th>For</th>
         <th>Against</th>
-        <th>GD</th>
+        <th>Goal Difference</th>
         <th>Points</th>
         <th>Form</th>
     </thead>
@@ -19,11 +19,11 @@
             <td>{{team.games.length}}</td>
             <td>{{team.gamesWon.length}}</td>
             <td>{{team.gamesDrawn.length}}</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1</td>
+            <td>{{team.gamesLost.length}}</td>
+            <td>{{team.goalsScored}}</td>
+            <td>{{team.goalsConceded}}</td>
+            <td>{{team.goalDifference}}</td>
+            <td>{{team.points}}</td>
             <td>1</td>
         </tr>
     {{/each}}
