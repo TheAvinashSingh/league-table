@@ -4,7 +4,7 @@ import { later } from '@ember/runloop';
 import { shuffle } from 'ember-composable-helpers/helpers/shuffle';
 import { computed } from '@ember/object';
 
-let DELAY_BETWEEN_GAMES= 3000;
+let DELAY_BETWEEN_GAMES= 100;
 
 export default Service.extend({
   store: inject(),
