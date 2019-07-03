@@ -1,7 +1,7 @@
 <table class="w-full">
     <thead>
         <th>Team</th>
-        <th>Played/th>
+        <th>Played</th>
         <th>Won</th>
         <th>Drawn</th>
         <th>Lost</th>
@@ -11,20 +11,22 @@
         <th>Points</th>
         <th>Form</th>
     </thead>
-    <tr>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
-    </tr>
+    {{#each @teams as |team index|}}
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+    {{/each}}
 </table>
